@@ -1,17 +1,88 @@
 .navBar {
-    width: 100%;
+    background-color: rgb(95, 98, 122);
     display: flex;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    background: #71798B80;
-    backdrop-filter: blur(10px);
-    border-radius: 40px;
-    padding: 20px 24px;
-    /* align-items: center; */
-    
-    min-height: 80px;
-    /* height: 80px; */
-    max-width: 1200px;
-    margin: 0 auto;
-    transition: .5s;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    min-width: 7%;
+    max-width: 12em;
+}
 
+.logo {
+    padding: 0 12px;
+    margin-top: 0;
+}
+
+.navButton {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: rgb(195, 212, 243);
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+    align-items: center;
+}
+
+.navIcon {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.navButton:hover {
+    background-color: rgb(35, 51, 94);
+    color: white;
+}
+
+/* .navBar {
+    color: white;
+    background-color: rgb(95, 98, 122);
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    width: 20em;
+}
+
+.navLinks {
+    padding: 20px 0px 20px 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    padding: 12px 12px;
+    margin-bottom: -2px;
+    align-items: left;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.link:hover {
+    background-color: #282c34;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.link.active {
+    border-radius: 12px 0px 0px 12px;
+    background-color: #282c34;
+    font-weight: 700;
+    margin: -2px;
+}
+
+.link.active:hover{
+    height: auto;
+} */
+
+.navLabel {
+    margin: 0;
 }

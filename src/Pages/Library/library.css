@@ -1,0 +1,80 @@
+.testButtonContainer {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    width: 100%;
+}
+
+.testButtonLeft {
+    color: black;
+    background-color: #E5F0FC;
+    padding: 20px 20px 0px 12px;
+    border-bottom: rgb(0, 183, 255) 2px solid;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.testButtonRight {
+    color: black;
+    background-color: white;
+    width: 100;
+    height: 100%;
+}
+
+.service {
+    padding: 8px 12px;
+    margin-bottom: -2px;
+}
+
+.service:hover {
+    background-color: #CFE3FA;
+    border-radius: 8px 8px 0 0;
+    height: 100%;
+}
+
+.service.active {
+    border-radius: 8px 8px 0 0;
+    background-color: white;
+    color: black;
+    border: rgb(0, 183, 255) 2px solid;
+    border-bottom: none;
+    font-weight: 600;
+    margin: -2px;
+}
+
+.service.active:hover{
+    height: auto;
+}
+
+.inputItem {
+    position: relative;
+}
+
+.input {
+    bottom: 0;
+    height: 36px;
+    width: 320px;
+    border-radius: 8px;
+    border: #0070f0 1px solid;
+    padding: 8px;
+}
+
+.inputLabel {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 20px;
+    color: black;
+    border-bottom: white 8px solid;
+    font-size: 14px;
+    left: 8px;
+    top: -12px;
+    padding: 0 4px 0 4px;
+    border-radius: 6px;
+}
+
+.testContainer {
+    background-color: #EEF0F3;
+    padding: 40px;
+}
